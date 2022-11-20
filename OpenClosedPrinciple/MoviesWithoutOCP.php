@@ -1,15 +1,15 @@
 <?php
 
-class Movies
+class Video
 {
     private $type;
 
     public function calculateInterest()
     {
         if ($this->type == 'Movie') {
-            //function
-        } elseif ($this->type == 'Series') {
-            //function
+            //calculate interest for movie
+        } elseif ($this->type == 'TVShow') {
+            //calculate interest for TVShow
         }
     }
 }
